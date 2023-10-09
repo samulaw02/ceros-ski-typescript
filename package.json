@@ -2,7 +2,7 @@
     "name": "ceros-ski",
     "version": "2.0.0",
     "description": "Ceros software engineer code challenge",
-    "main": "main.js",
+    "main": "main.js",//
     "scripts": {
         "dev": "webpack-dev-server --mode development",
         "build": "webpack --mode production",
