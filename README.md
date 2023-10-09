@@ -118,15 +118,6 @@ I have implemented the requested new feature, I have also made some improvements
 * **Controlled:** While jumping, the skier can jump over rocks but cannot jump over trees.
 
 
-### Quality Of Code
-
-I have focused on writing clean, maintainable, and well-documented code. The code is organized into classes and functions for clarity and reusability. Comments have been added to explain the logic and purpose of each section of the code. The codebase is designed to be extensible, allowing for easy addition of future features.
-
-### Known Bugs
-
-There are no known bugs in the current implementation.
-
-
 ### Bonus Items
 
 * **Pause and Resume:** I added the ability to pause and resume the game by pressing the "Escape" key. When paused, the game is frozen, and a pause screen is displayed. Pressing "Escape" again resumes the game.
@@ -137,8 +128,16 @@ There are no known bugs in the current implementation.
 
 * **Play Online / Locally :** I have deployed the game to a server, It can be play online on [https://github.com/samulaw/ceros-ski-typescript](https://github.com/samulaw/ceros-ski-typescript).
 
-
 * **Unit Testing:** I have also provided some unit test available inside the test folder. it can be run via the command <pre>`npm run test`</pre>
+
+
+### Quality Of Code
+
+I have focused on writing clean, maintainable, and well-documented code. The code is organized into classes and functions for clarity and reusability. Comments have been added to explain the logic and purpose of each section of the code. The codebase is designed to be extensible, allowing for easy addition of future features.
+
+### Known Bugs
+
+There are no known bugs in the current implementation.
 
 
 ### Undone 
@@ -150,7 +149,7 @@ I am unable to work on the Increasing the difficulty the longer the skier skis (
 
 To run the game locally, follow these steps:
 
-1. Clone the repository: `git clone github.com/samulaw/ceros-ski-typescript`
+1. Clone the repository: `git clone https://github.com/samulaw02/ceros-ski-typescript.git`
 
 1. Navigate to the project directory: `cd ceros-ski-typescript`
 
