@@ -2,7 +2,7 @@
 
 Welcome to the Ceros Ski Code Challenge!
 
-<small>_[Implementation Overview](#solution)_</small>
+<small>_[Implementation Overview](#implementation-overview)_</small>
 
 For this challenge, we have included some base code for Ceros Ski, our version of the classic Windows game SkiFree. If
 you've never heard of SkiFree, Google has plenty of examples. Better yet, you can play our version here:
@@ -100,14 +100,13 @@ We are looking forward to see what you come up with!!
 
 ## Implementation Overview
 
-### Implementation Overview
+### What I have done
 
 I have implemented the requested new feature, I have also made some improvements on the existing code as well as add more feature as part of the bonus specified.
 
 
 ### Added Features
 
-#### Skier Jumping
 
 * **Addition of jump a ramp:** Jump ramps are added to the game world and appear randomly as the skier skis.. 
 
@@ -124,7 +123,7 @@ I have implemented the requested new feature, I have also made some improvements
 
 * **Score Board:** A scoring system has been added to the game. The skier's score increases as they ski further without crashing into obstacles or the rhino.
 
-* **Reset Game:** I have added the ability to reset the game once it is over. If you decided not to reset the game you will be redirected to (ceros website)[https://ceros.com]
+* **Reset Game:** I have added the ability to reset the game once it is over. If you decided not to reset the game you will be redirected to (ceros-website)[https://ceros.com]
 
 * **Play Online / Locally :** I have deployed the game to a server, It can be play online on [https://github.com/samulaw/ceros-ski-typescript](https://github.com/samulaw/ceros-ski-typescript).
 
@@ -141,7 +140,7 @@ There are no known bugs in the current implementation.
 
 
 ### Undone 
-I am unable to work on the Increasing the difficulty the longer the skier skis (increase speed, increase obstacle frequency, etc.). This is due to time constraints. 
+I am unable to work on increasing the difficulty i.e the longer the skier skis (increase speed, increase obstacle frequency, etc.). This is due to time constraints. 
 
 
 
