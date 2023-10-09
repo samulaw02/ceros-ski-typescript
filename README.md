@@ -123,9 +123,9 @@ I have implemented the requested new feature, I have also made some improvements
 
 * **Score Board:** A scoring system has been added to the game. The skier's score increases as they ski further without crashing into obstacles or the rhino.
 
-* **Reset Game:** I have added the ability to reset the game once it is over. If you decided not to reset the game you will be redirected to (ceros-website)[https://ceros.com]
+* **Reset Game:** I have added the ability to reset the game once it is over. If you decided not to reset the game you will be redirected to [ceros-website](https://ceros.com)
 
-* **Play Online / Locally :** I have deployed the game to a server, It can be play online on [https://github.com/samulaw/ceros-ski-typescript](https://github.com/samulaw/ceros-ski-typescript).
+* **Play Online / Locally :** I have deployed the game to a server, It can be play online on [https://github.com/samulaw/ceros-ski-typescript](https://github.com/samulaw/ceros-ski-typescript)
 
 * **Unit Testing:** I have also provided some unit test available inside the test folder. it can be run via the command <pre>`npm run test`</pre>
 
