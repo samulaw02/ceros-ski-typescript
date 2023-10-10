@@ -122,7 +122,7 @@ export class Game {
             this.updateGameWindow();
             this.drawGameWindow();
 
-            // Update the score and duration using ScoreBoard
+            // Update the score using ScoreBoard
             this.scoreBoard.updateScoreBoard(this.gameConfig.tick);
             this.updateTimers();
         }
@@ -130,12 +130,10 @@ export class Game {
     }
 
 
+    /**
+     * Update the Game Score
+     */
     updateTimers() {
-        // Update the game duration timer
-        if (this.gameConfig.tick < this.gameConfig.rhinoTime) {
-            this.gameConfig.tick += 1;
-        }
-        
         if (this.skier.isCrashed()) {
             this.gameConfig.isSkierCrashed = true;
         }
@@ -143,14 +141,8 @@ export class Game {
         this.scoreBoard.updateScoreBoard(this.gameConfig.score);
         // Update the score increment timer
         if (!this.gameConfig.isSkierCrashed && this.gameConfig.tick % this.gameConfig.scoreIncrementInterval === 0) {
-            this.gameConfig.score += 10; // Adjust the score increment as needed
+            this.gameConfig.score += 1;
         }
-    
-        // Handle other timers and game logic as needed
-        // ...
-    
-        // Call this method again on the next frame
-        requestAnimationFrame(this.updateTimers.bind(this));
     }
 
     /**
